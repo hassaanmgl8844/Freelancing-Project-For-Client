@@ -1,4 +1,4 @@
-
+import { FaFacebook , FaInstagram , FaTwitter , FaPinterest , FaYoutube} from "react-icons/fa6";
 function Newsletter() {
   return (
     <section className="bg-gray-200 p-8 text-center">
@@ -11,11 +11,11 @@ function Newsletter() {
       />
       <button className="bg-red-500 text-white px-4 py-2 rounded">Join</button>
       <div className="flex justify-center mt-4 space-x-4">
-        <a href="#"><img src="/path/to/facebook-icon.png" alt="Facebook" /></a>
-        <a href="#"><img src="/path/to/instagram-icon.png" alt="Instagram" /></a>
-        <a href="#"><img src="/path/to/twitter-icon.png" alt="Twitter" /></a>
-        <a href="#"><img src="/path/to/pinterest-icon.png" alt="Pinterest" /></a>
-        <a href="#"><img src="/path/to/youtube-icon.png" alt="YouTube" /></a>
+        <a href="#"><FaFacebook /></a>
+        <a href="#"><FaInstagram /></a>
+        <a href="#"><FaTwitter /></a>
+        <a href="#"><FaPinterest /></a>
+        <a href="#"><FaYoutube /></a>
       </div>
     </section>
   );
